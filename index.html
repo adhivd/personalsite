@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="main.css" type="text/css" media=screen>  <meta charset="utf-8">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>  
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js" ></script>
+    
+  <title>Adhiv Dhar</title>
+</head>
+<body>
+    <div id="navbar">
+        <ul>
+            <li><a href="#">ad</a></li>
+            <span>//</span>
+            <li id="about" ><a href="#">about</a></li>
+            <span>//</span>
+            <li id="projects"><a href="#">projects</a></li>
+            <span>//</span>
+            <li id="activities"><a href="#">activities</a></li>
+            <span>//</span>
+            <li id="mawteam"><a href="http://www.mawteam.com" target="_blank" >maw</a></li>
+        </ul>
+        
+    <div id="name">
+        <h1>adhivdhar<span>.com</span></h1>
+        <div id="line"></div>
+        
+        <p>designer, budding entreprenuer, aspiring hacker, trapped high schooler</p>
+        
+        
+        
+        <script>            
+            
+$(document).ready(function(){
+    $("#about").hover(function(){
+        $("body").css("background-color", "#E87E04");
+        $("#about").css("border", "1px solid #fff");
+        $("#line").css("background-color","#bb6706");
+        $("#navbar span").css("color","#fff");
+        $("#name span").css("color","#bb6706");
+        $("#name h1").css("color","#fff");
+
+        },function(){
+        $("body").css("background-color", "white");
+        $("#about").css("border", "1px solid #E87E04");
+        $("#line").css("background-color","#d6d6d6");
+        $("#navbar span").css("color","#000");
+        $("#name span").css("color","#d6d6d6";
+        $("#name h1").css("color","#000");
+    });
+});
+            
+</script>
+        
+        
+    
+    
+    </div>
+    
+    </div>
+</body>
+</html>
