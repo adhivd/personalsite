@@ -2,62 +2,38 @@
 <html>
 <head>
 
-    <link rel="stylesheet" href="main.css" type="text/css" media=screen>  <meta charset="utf-8">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>  
-    <script type="text/javascript" src="js/jquery-1.11.2.min.js" ></script>
+    <link rel="stylesheet" href="style/main.css" type="text/css" media="screen"></link>  
+    <meta charset="utf-8"></meta>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css"></link>
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
     
   <title>Adhiv Dhar</title>
 </head>
 <body>
     <div id="navbar">
         <ul>
-            <li><a href="#">ad</a></li>
-            <span>//</span>
-            <li id="about" ><a href="#">about</a></li>
-            <span>//</span>
-            <li id="projects"><a href="#">projects</a></li>
-            <span>//</span>
-            <li id="activities"><a href="#">activities</a></li>
-            <span>//</span>
-            <li id="mawteam"><a href="http://www.mawteam.com" target="_blank" >maw</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">projects</a></li>
+            <li><a href="#" id="home">adhiv dhar</a></li>
+            <li><a href="#">activities</a></li>
+            <li><a href="http://www.mawteam.com" target="_blank">maw</a></li>
+        </ul>
+    </div>
+    
+    <div id="middle">
+        <img src="images/heyitsme.png" id="face" /> 
+        <p>Budding entreprenuer, aspiring hacker, improving designer, high school student</p>
+        
+        
+        <ul id="social">
+            <a href="http://www.facebook.com" target="_blank" ><li><img src="images/icons/fb.png" /></li></a>
+            <a href="http://www.instagram.com" target="_blank" ><li><img src="images/icons/ig.png" /></li></a>
+            <a href="http://www.linkedin.com" target="_blank" ><li><img src="images/icons/in.png" /></li></a>
         </ul>
         
-    <div id="name">
-        <h1>adhivdhar<span>.com</span></h1>
-        <div id="line"></div>
+        <img src="images/sig.png" id="sig" />
         
-        <p>designer, budding entreprenuer, aspiring hacker, trapped high schooler</p>
-        
-        
-        
-        <script>            
-            
-$(document).ready(function(){
-    $("#about").hover(function(){
-        $("body").css("background-color", "#E87E04");
-        $("#about").css("border", "1px solid #fff");
-        $("#line").css("background-color","#bb6706");
-        $("#navbar span").css("color","#fff");
-        $("#name span").css("color","#bb6706");
-        $("#name h1").css("color","#fff");
+    </div>
 
-        },function(){
-        $("body").css("background-color", "white");
-        $("#about").css("border", "1px solid #E87E04");
-        $("#line").css("background-color","#d6d6d6");
-        $("#navbar span").css("color","#000");
-        $("#name span").css("color","#d6d6d6";
-        $("#name h1").css("color","#000");
-    });
-});
-            
-</script>
-        
-        
-    
-    
-    </div>
-    
-    </div>
 </body>
 </html>
