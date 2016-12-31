@@ -1,0 +1,91 @@
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    background-color:#fbfeff;
+}
+
+header
+{
+    max-width: none !important;
+    background-image: url(images/space.jpeg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    color: white;
+    padding: 100px 30px;
+}
+
+header div
+{
+    max-width: 50em;
+    margin: 0 auto;
+}
+
+    header h1
+    {
+        font-size: 60px;
+        letter-spacing: -4px;
+        margin: 0;
+        max-width: 50em;
+    }
+
+    header p
+    {
+        font-size: 20px;
+        margin: 0 auto;
+    }
+
+#container
+{
+    margin: 0 auto;
+    max-width: 50em;
+    padding: 20px 30px;
+}
+
+#container h1
+{
+    font-size: 40px;
+}
+
+.activity
+{
+    display: block;
+    padding: 10px 10px;
+    border: 1px solid #ededed;
+    border-radius: 5px;
+}
+
+    .activity h3
+    {
+        display: inline;
+        font-size: 20px;
+    }
+
+    .activity p
+    {
+        font-family: 'Lora', serif;
+        color:#484848;
+        
+    }
+
+    .activity a
+    {
+        text-decoration: none;
+        background-color: #3e9def;
+        padding: 5px 10px;
+        color: white;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+
+    .activity a:hover
+{
+    background-color:#418ed1;
+    cursor: pointer;
+}
+
+
+
+    
