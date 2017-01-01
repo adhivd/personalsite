@@ -49,43 +49,59 @@ header div
     font-size: 40px;
 }
 
-.activity
+.item
 {
     display: block;
-    padding: 10px 10px;
-    border: 1px solid #ededed;
-    border-radius: 5px;
+    padding: 20px 30px;
+    border-radius: 4px;
+    background-color:#f5f7f9;
+    border-bottom: 2px solid #d0d3d6;
+    border-left: 2px solid #3e9def;
+    margin: 30px 0;
 }
 
-    .activity h3
+    .item h3
     {
         display: inline;
-        font-size: 20px;
+        font-size: 24px;
+        vertical-align: middle;
+        margin-right: 3px;
     }
 
-    .activity p
+    .item p
     {
-        font-family: 'Lora', serif;
         color:#484848;
         
     }
 
-    .activity a
+    .item a
     {
         text-decoration: none;
         background-color: #3e9def;
         padding: 5px 10px;
+        margin: 0 2px;
         color: white;
         font-size: 14px;
         border-radius: 5px;
+        border-bottom: 2px solid #317dbf
     }
 
-    .activity a:hover
+.item a:hover
 {
     background-color:#418ed1;
     cursor: pointer;
 }
 
-
-
+@media (max-width: 1000px) {
+    #container
+    {
+        text-align: center;
+        max-width: 90%;
+    }
     
+    .item a
+    {
+        display: block;
+    }
+}
+
