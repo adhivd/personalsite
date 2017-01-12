@@ -92,6 +92,13 @@ header div
     cursor: pointer;
 }
 
+#yearbook
+{
+    margin-top: 300px;
+    font-weight: 100;
+    font-size: 23px;
+}
+
 @media (max-width: 1000px) {
     #container
     {
@@ -105,9 +112,3 @@ header div
     }
 }
 
-#yearbook
-{
-    margin-top: 300px;
-    font-weight: 100;
-    font-size: 23px;
-}
