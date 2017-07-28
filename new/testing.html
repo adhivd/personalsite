@@ -1,57 +1,35 @@
-<!DOCTYPE html>
 <html>
-<head>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            html, body {
+              margin: 0;
+            }
+            canvas {
+              border: 1px solid black;
+              background: white;
+            }
 
-    <link rel="stylesheet" href="style.css" type="text/css" media="screen"> 
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
-
-    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
-
-    
-  <title>Adhiv Dhar</title>
-</head>
-
-<body>
-    <?php include_once("analyticstracking.php") ?>
-    <canvas>
+h1
+{
+  color: white;
+}
+        </style>
+    </head>
+    <body>
+ 
+      <canvas>
 
 
-    </canvas>
-    
-        <div id="container">
-            
-              <h1>Adhiv Dhar</h1>
-            <p><span>Hey! I’m a freshman studying EECS at Berkeley who loves to intersect technology and design, teach things I’m awesome at, and dance whenever I get the chance.</span></p>
-            
-            <br>
+      </canvas>
         
-     <!--- MENU -->
-            
-    <ul id="menu">
-        <li><a href="#" style="color: #4897f0;">Portfolio</a></li> 
-        <li><a href="#" style="color: #905bd1">Resume</a></li>  
-        <li><a href="#" style="color: #88e4a8">Creative Work</a></li>
-        <li><a href="#" style="color: #ef847f">Thoughts</a></li>  
-    </ul>
-            
-    <ul id="links">
-        <li><a href="#"><img src="icons/mail.png"/></a></li>     
-        <li><a href="#"><img src="icons/fb.png"/></a></li> 
-        <li><a href="#"><img src="icons/github.png"/></a></li>
-        <li><a href="#"><img src="icons/ig.png"/></a></li>
-        <li><a href="#"><img src="icons/sc.png"/></a></li>
-    </ul>
-     
-    
-    </div>
-     <!--- CONTAINER END --->
+        <section id="ev">
+            <h1>YO YO YO YO</h1>
+        
+        </section>
 </body>
     
     
-    <!-- JS BEGINS -->
-    
-       
     <script type="text/javascript">
     
     
@@ -187,27 +165,9 @@ for (var i = 0; i < 50; i++) {
 }
         
 // SHAPES CREATION
-for (var i = 0; i < 42; i++) {
+for (var i = 0; i < 5; i++) {
     
-    // Creates x, triangle, circle, or square in order
-    var link = 'icons/mini/';
-    var char;
-    var k = i % 4;
-    if(k == 0) {
-        char = 'x';
-    }
-    else if(k == 1) {
-        char = 't';
-    }
-    else if(k == 2) {
-        char = 'c';
-    }
-    else{
-        char = 's';
-    }
-    
-    
-    var link = link + char + '.png';
+    var link = 'icons/ig.png';
     // TESTING alert(link);
     
     // setting random x/y variables within the inner boundaries minus the circle's radius, so it doesn't get stuck in the sides of the screen --> random number in a specified range = Math.random() * (max-min) + min;
@@ -241,10 +201,10 @@ function animate() {
         shapeArray[i].move();
     }
     
-//    for (var i = 0; i < circleArray.length; i++) {
-//        circleArray[i].draw();
-//        circleArray[i].move();
-//    }
+    for (var i = 0; i < circleArray.length; i++) {
+        circleArray[i].draw();
+        circleArray[i].move();
+    }
     
 
 }
@@ -258,6 +218,5 @@ animate();
     
     
     </script>
-    
     
 </html>
